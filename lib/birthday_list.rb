@@ -17,7 +17,8 @@ class Birthday
   def show
     @friends.each do |birth|
       puts "Today's birthday: #{birth[:name]}. This friend has #{birth} years old."
-    end    
+    end  
+      
   end
 end
 
